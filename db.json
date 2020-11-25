@@ -1,16 +1,710 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
+  "pub": [{
+          "id": 1,
+          "update_at": "2020-09-09T19:21:56.784Z",
+          "userId_updated": 1,
+          "imgId": 1,
+          "link": "#",
+          "type": {
+              "id": 0,
+              "name": "string"
+          },
+          "status": "enabled"
+      },
+      {
+          "id": 2,
+          "update_at": "2020-09-09T19:21:56.784Z",
+          "userId_updated": 1,
+          "imgId": 1,
+          "link": "#",
+          "type": {
+              "id": 0,
+              "name": "string"
+          },
+          "status": "enabled"
+      },
+      {
+          "id": 3,
+          "update_at": "2020-09-09T19:21:56.784Z",
+          "userId_updated": 1,
+          "imgId": 3,
+          "link": "#",
+          "type": {
+              "id": 0,
+              "name": "string"
+          },
+          "status": "enabled"
+      },
+      {
+          "id": 4,
+          "update_at": "2020-09-09T19:21:56.784Z",
+          "userId_updated": 1,
+          "imgId": 4,
+          "link": "#",
+          "type": {
+              "id": 0,
+              "name": "string"
+          },
+          "status": "enabled"
+      },
+      {
+          "id": 5,
+          "update_at": "2020-09-09T19:21:56.784Z",
+          "userId_updated": 1,
+          "imgId": 5,
+          "link": "#",
+          "type": {
+              "id": 0,
+              "name": "string"
+          },
+          "status": "enabled"
+      }
   ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
+  "bettingHome": [{
+          "id": 1,
+          "name": "Betclick",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "enabled"
+      },
+      {
+          "id": 2,
+          "name": "Bet.pt",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 3,
+          "name": "Betano",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "enabled"
+      },
+      {
+          "id": 4,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 5,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 6,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 7,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 8,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 9,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 10,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 11,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 12,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 13,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 14,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      },
+      {
+          "id": 15,
+          "name": "Betway",
+          "site": "#",
+          "affiliateLink": "#",
+          "imgId": "1",
+          "weight": 1,
+          "liveStatus": "disabled"
+      }
+  ],
+  "game": [{
+          "id": 1,
+          "odds": [{
+                  "id": 1,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 2,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "string",
+                  "oddsTeamB": "string",
+                  "oddsDraw": "string"
+              },
+              {
+                  "id": 3,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "string",
+                  "oddsTeamB": "string",
+                  "oddsDraw": "string"
+              },
+              {
+                  "id": 4,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "string",
+                  "oddsTeamB": "string",
+                  "oddsDraw": "string"
+              },
+              {
+                  "id": 5,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "string",
+                  "oddsTeamB": "string",
+                  "oddsDraw": "string"
+              },
+              {
+                  "id": 6,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 7,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 8,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 9,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 10,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 11,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 12,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 13,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 14,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 15,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              }
+          ],
+          "teamA": {
+              "id": 0,
+              "name": "string",
+              "imgId": 0
+          },
+          "teamB": {
+              "id": 0,
+              "name": "string",
+              "imgId": 0
+          },
+          "startTime": "2020-09-17 10:15:53",
+          "started": true,
+          "live": [{
+              "id": 0,
+              "bettingHome": {
+                  "id": 0,
+                  "name": "string",
+                  "site": "string",
+                  "affiliateLink": "string",
+                  "imgId": "string",
+                  "weight": 0,
+                  "liveStatus": "enabled"
+              },
+              "imgId": 0,
+              "link": "string"
+          }]
+      },
+      {
+          "id": 2,
+          "odds": [{
+                  "id": 1,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 2,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "string",
+                  "oddsTeamB": "string",
+                  "oddsDraw": "string"
+              },
+              {
+                  "id": 3,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "string",
+                  "oddsTeamB": "string",
+                  "oddsDraw": "string"
+              },
+              {
+                  "id": 4,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "string",
+                  "oddsTeamB": "string",
+                  "oddsDraw": "string"
+              },
+              {
+                  "id": 5,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "string",
+                  "oddsTeamB": "string",
+                  "oddsDraw": "string"
+              },
+              {
+                  "id": 6,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 7,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 8,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 9,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 10,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 11,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 12,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 13,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 14,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              },
+              {
+                  "id": 15,
+                  "bettingHome": {
+                      "id": 0,
+                      "name": "string",
+                      "site": "string",
+                      "affiliateLink": "string",
+                      "imgId": "string",
+                      "weight": 0,
+                      "liveStatus": "enabled"
+                  },
+                  "oddsTeamA": "3.41",
+                  "oddsTeamB": "2.39",
+                  "oddsDraw": "3.19"
+              }
+          ],
+          "teamA": {
+              "id": 0,
+              "name": "string",
+              "imgId": 0
+          },
+          "teamB": {
+              "id": 0,
+              "name": "string",
+              "imgId": 0
+          },
+          "startTime": "2020-09-17 10:15:53",
+          "started": true,
+          "live": [{
+              "id": 0,
+              "bettingHome": {
+                  "id": 0,
+                  "name": "string",
+                  "site": "string",
+                  "affiliateLink": "string",
+                  "imgId": "string",
+                  "weight": 0,
+                  "liveStatus": "enabled"
+              },
+              "imgId": 0,
+              "link": "string"
+          }]
+      }
   ]
 }
